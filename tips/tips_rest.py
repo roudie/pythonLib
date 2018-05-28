@@ -4,10 +4,17 @@ from flask_restful import reqparse, abort, Resource
 TIPS = {'0': {'id': 0, 'body': 'body0', 'title': 'title0'},
         '1': {'id': 1, 'body': 'body1', 'title': 'title1'},
         '2': {'id': 2, 'body': 'body2', 'title': 'title2'},
+        '3': {'id': 3, 'body': 'body3', 'title': 'title3'},
         '4': {'id': 4, 'body': 'body4', 'title': 'title4'}
        }
 
-COMMENTS = {'0': {'id': 0, 'body': 'commentbody0', 'id_tip': 1, 'time': str(datetime.now())}
+COMMENTS = {'0': {'id': 0, 'body': 'commentbody0', 'id_tip': 1, 'time': str(datetime.now())},
+            '1': {'id': 1, 'body': 'commentbody1', 'id_tip': 1, 'time': str(datetime.now())},
+            '2': {'id': 2, 'body': 'commentbody2', 'id_tip': 1, 'time': str(datetime.now())},
+            '3': {'id': 3, 'body': 'commentbody3', 'id_tip': 2, 'time': str(datetime.now())},
+            '4': {'id': 4, 'body': 'commentbody4', 'id_tip': 3, 'time': str(datetime.now())},
+            '5': {'id': 5, 'body': 'commentbody5', 'id_tip': 4, 'time': str(datetime.now())},
+            '6': {'id': 6, 'body': 'commentbody6', 'id_tip': 4, 'time': str(datetime.now())}
            }
 
 PARSER_TIP = reqparse.RequestParser()
