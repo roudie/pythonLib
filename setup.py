@@ -6,7 +6,7 @@ setup(
     license='MIT',
     packages=['tips'],
     description='Tips, comment API with REST endpoint',
-    install_requires=['numpy'],
+    install_requires=['flask'],
     url='git@github.com:roudie/pythonLib',
     author='skorniewicz226183',
     author_email='226183@student.pwr.edu.pl'
