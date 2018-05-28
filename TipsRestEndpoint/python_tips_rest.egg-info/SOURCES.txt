@@ -1,0 +1,7 @@
+setup.py
+python_tips_rest.egg-info/PKG-INFO
+python_tips_rest.egg-info/SOURCES.txt
+python_tips_rest.egg-info/dependency_links.txt
+python_tips_rest.egg-info/requires.txt
+python_tips_rest.egg-info/top_level.txt
+tips/tips_rest.py
